@@ -1,7 +1,7 @@
 import mujoco
 import mujoco.viewer
 
-model = mujoco.MjModel.from_xml_path("xml/scene.xml")
+model = mujoco.MjModel.from_xml_path("scene/scene_right.xml")
 data = mujoco.MjData(model)
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
