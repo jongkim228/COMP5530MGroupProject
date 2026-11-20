@@ -1,0 +1,8 @@
+<mujoco model="shared_scene">
+  <include file="../robot.xml"/>
+  <worldbody>
+    <body name="table" pos="0.8 0 0.35">
+      <geom name="table_top" type="box" size="0.5 0.4 0.035"/>
+    </body>
+  </worldbody>
+</mujoco>
